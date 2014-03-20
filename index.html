@@ -1,7 +1,79 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hari Om Sangeeth</title>
+<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<header>
+		<div class="outer_header">
+			<div class="inner_header">
+				<p>Hari Om Sangeeth&lt;</p>
+			</div>
+		</div>
+	</header>
+	<div class="outer_content">
+		<div class="main_content">
+			<menu id="menu">
+				<li id="current"><a href="#">home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">services</a></li>
+				<li><a href="#">contact</a></li>
+
+			</menu>
+			<script type="text/javascript">
+				$('menu li[id!="current"]').hover(function() {
+					$(this).fadeTo("fast", 1);
+				}, function() {
+					$(this).fadeTo("slow", 0.2);
+
+				});
+			</script>
+			<section>
+				<figure class="index_figure">
+					<img alt="Mrudangam" src="images/mrudangam1.png">
+				</figure>
+				<div class="section_start"></div>
+				<div class="text">
+					<header>What is Lorem Ipsum?</header>
+					<p>Lorem Ipsum is simply dummy text of the printing and
+						typesetting industry. Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s, when an unknown printer took a
+						galley of type and scrambled it to make a type specimen book. It
+						has survived not only five centuries, but also the leap into
+						electronic typesetting, remaining essentially unchanged. It was
+						popularised in the 1960s with the release of Letraset sheets
+						containing Lorem Ipsum passages, and more recently with desktop
+						publishing software like Aldus PageMaker including versions of
+						Lorem Ipsum.</p>
+						<header>Where does it come from?</header>
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random
+						text. It has roots in a piece of classical Latin literature from
+						45 BC, making it over 2000 years old. Richard McClintock, a Latin
+						professor at Hampden-Sydney College in Virginia, looked up one of
+						the more obscure Latin words, consectetur, from a Lorem Ipsum
+						passage, and going through the cites of the word in classical
+						literature, discovered the undoubtable source. Lorem Ipsum comes
+						from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+						Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+						BC. This book is a treatise on the theory of ethics, very popular
+						during the Renaissance. The first line of Lorem Ipsum, "Lorem
+						ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<footer>
+		<div class="outer_footer">
+			<div class="inner_footer">
+				<p>Hari Om Sangeeth</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

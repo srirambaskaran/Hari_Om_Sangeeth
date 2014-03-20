@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	
+}
+
+.outer_header{
+	width: 100%;
+	background: url("../images/gradient_bg.png");
+}
+
+.inner_header{
+	width: 1024px;
+	margin: 0 auto;
+	background: url("../images/gradient_bg.png");
+	padding-left: 12px;	
+}
+
+.inner_header p{
+	font-size: 50px;
+	color: white;
+	font-family: cursive-custom;
+	
+}
+
+/* Content */
+.outer_content{
+	width: 100%;
+	
+}
+
+.main_content{
+	width: 1024px;
+	margin: 0 auto;
+	min-height: 400px;
+	padding: 6px;
+}
+
+.section_start{
+	height: 40px;
+	width: 50%;
+	box-shadow: 0 10px 10px #b7cb91;
+}
+
+.text{
+	width: 40%;
+	padding: 5px 10px;
+	font-family: verdana;
+	font-size: 11px;
+	font-color: gray;
+	color: #595959;
+	text-align: justify;
+	border-left: 6px dashed #18412b;
+}
+
+.text header{
+	margin-top: 10px;
+	font-size: 28px;
+	font-family: cursive-custom;
+}
+
+menu{
+	float: right;
+	font-family: cursive-menu;
+	font-size: 40px;
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+menu li,a{
+	list-style-type: none;
+	opacity: 0.6;
+	text-transform: capitalize;
+	color:#18412b;
+	text-decoration: none;
+}
+
+menu li#current, #current a{
+	list-style-type: none;
+	opacity: 1;
+	color:#18412b;
+}
+
+.index_figure{
+	float: right;
+}
+
+/* Footer */
+.outer_footer{
+	width: 100%;
+}
+
+.inner_footer {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.inner_footer p{
+	border-top: 1px solid rgba(0,0,0,0.4);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	width: inherit;
+	text-align: center;
+	font-family: speed;
+}
+
+
+
+@FONT-FACE {
+	font-family: speed;
+	src: url("../fonts/krunch_bold.ttf");
+}
+
+@FONT-FACE {
+	font-family: cursive-custom;
+	src: url("../fonts/cursive.ttf");
+}
+@FONT-FACE {
+	font-family: cursive-menu;
+	src: url("../fonts/menu_cursive.otf");
+}
+
